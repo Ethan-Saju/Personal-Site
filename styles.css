@@ -122,7 +122,54 @@ body {
     flex-direction: column;
   }
 
-  .body {
-    font-size: 75%;
+@media (max-width: 414px) {
+  .intro {
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
   }
+
+  .interests {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #name {
+    font-size: 70px; /* 70% of 100px */
+  }
+
+  .sub-heading {
+    font-size: 28px; /* 70% of 40px */
+    letter-spacing: 7px; /* 70% of 10px */
+  }
+
+  .info {
+    letter-spacing: 7px; /* 70% of 10px */
+  }
+
+  .interest {
+    font-size: 35px; /* 70% of 50px */
+  }
+
+  .skill {
+    letter-spacing: 3.5px; /* 70% of 5px */
+  }
+
+  .text {
+    font-size: 17.5px; /* 70% of 25px */
+  }
+
+  .heading {
+    font-size: 21px; /* 70% of 30px */
+  }
+
+  #contact-here {
+    font-size: 17.5px; /* 70% of 25px */
+    letter-spacing: 3.5px; /* 70% of 5px */
+  }
+
+  .link {
+    font-size: 14px; /* 70% of 20px */
+  }
+}
 }
