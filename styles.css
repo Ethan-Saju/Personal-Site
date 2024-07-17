@@ -1,0 +1,124 @@
+body {
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto Mono", monospace;
+  color: #fefbd8;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile {
+  height: 300px;
+  border: solid white 5px;
+  border-radius: 2.5%;
+}
+
+.info {
+  letter-spacing: 10px;
+}
+
+#name {
+  font-size: 100px;
+  color: #3c0949;
+}
+
+.sub-heading {
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+.intro-container {
+  background-color: #987d9a;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro {
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px 0px;
+}
+
+.interest-container {
+  width: 100%;
+  background-color: #bb9ab1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.interests {
+  width: 85%;
+
+  grid-template-rows: 0.7fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  text-align: center;
+  gap: 40px;
+}
+
+.interest {
+  grid-column: span 4;
+  text-align: center;
+  align-content: center;
+  font-size: 50px;
+}
+
+.skill {
+  border: 3px solid white;
+  letter-spacing: 5px;
+  text-align: left;
+  padding: 15px;
+  border-radius: 2.5%;
+}
+
+.text {
+  font-size: 25px;
+}
+.heading {
+  font-size: 30px;
+}
+.contact {
+  background-color: #bb9ab1;
+  height: 100px;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  padding: 50px;
+}
+
+#contact-here {
+  background-color: #bb9ab1;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fefbd8;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1420px) {
+  .intro {
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+  }
+
+  .interests {
+    display: flex;
+    flex-direction: column;
+  }
+}
